@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40mm"
+   height="40mm"
+   viewBox="0 0 40 40"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="plotly_box.svg"
+   inkscape:export-filename="C:\Users\chops\Pictures\work_images\c_sharp_2.png"
+   inkscape:export-xdpi="5.3492537"
+   inkscape:export-ydpi="5.3492537">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="80.88386"
+     inkscape:cy="77.583072"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1267"
+     inkscape:window-height="967"
+     inkscape:window-x="52"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="block">
+    <rect
+       style="fill:#6c757d;fill-opacity:1;stroke-width:0.0695603"
+       id="rect1571"
+       width="39.947575"
+       height="39.947575"
+       x="0.043889061"
+       y="1.6348703e-06"
+       ry="5.0875082" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="vector">
+    <rect
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-opacity:1"
+       id="rect1554"
+       width="2.7395129"
+       height="16.503891"
+       x="15.234363"
+       y="15.234363"
+       ry="1.3697565" />
+    <rect
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-opacity:1"
+       id="rect1554-0"
+       width="2.7395129"
+       height="16.503891"
+       x="29.09897"
+       y="15.267773"
+       ry="1.3697565" />
+    <rect
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-opacity:1"
+       id="rect1585"
+       width="2.6726952"
+       height="9.822156"
+       x="8.3521729"
+       y="22.049736"
+       ry="1.3697559" />
+    <rect
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-opacity:1"
+       id="rect1585-3"
+       width="2.6726952"
+       height="9.822156"
+       x="22.317005"
+       y="22.083143"
+       ry="1.3697559" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="top">
+    <circle
+       style="opacity:1;fill:#a3a3a3;fill-opacity:1;stroke:#a3a3a3;stroke-width:0.898247;stroke-opacity:1"
+       id="path1487"
+       cx="9.3544331"
+       cy="10.22306"
+       r="1.3204069" />
+    <circle
+       style="opacity:1;fill:#a3a3a3;fill-opacity:1;stroke:#a3a3a3;stroke-width:0.898247;stroke-opacity:1"
+       id="path1487-6"
+       cx="16.704346"
+       cy="10.022607"
+       r="1.3204069" />
+    <circle
+       style="opacity:1;fill:#a3a3a3;fill-opacity:1;stroke:#a3a3a3;stroke-width:0.898247;stroke-opacity:1"
+       id="path1487-4"
+       cx="23.653353"
+       cy="10.223059"
+       r="1.3204069" />
+    <circle
+       style="opacity:1;fill:#a3a3a3;fill-opacity:1;stroke:#a3a3a3;stroke-width:0.898247;stroke-opacity:1"
+       id="path1487-8"
+       cx="30.535543"
+       cy="10.089425"
+       r="1.3204069" />
+    <circle
+       style="opacity:1;fill:#a3a3a3;fill-opacity:1;stroke:#a3a3a3;stroke-width:0.898247;stroke-opacity:1"
+       id="path1487-9"
+       cx="9.3544331"
+       cy="16.570711"
+       r="1.3204069" />
+    <circle
+       style="opacity:1;fill:#a3a3a3;fill-opacity:1;stroke:#a3a3a3;stroke-width:0.898247;stroke-opacity:1"
+       id="path1487-3"
+       cx="23.653353"
+       cy="16.570711"
+       r="1.3204069" />
+  </g>
+</svg>
