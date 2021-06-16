@@ -7554,6 +7554,18 @@ textarea.form-control-lg {
   border-radius: 30% !important;
 }
 
+/* ADDED */
+.img-left {
+  float: left;
+  margin: 0 40px 10px 0;
+}
+
+/* ADDED */
+.img-right {
+  float: right;
+  margin: 0 0 10px 40px;
+}
+
 .rounded-pill {
   border-radius: 50rem !important;
 }

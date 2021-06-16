@@ -28,10 +28,11 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#nominations">Nominations</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">RESUM&#201;</a></li>
                 </ul>
             </div>
@@ -117,6 +118,57 @@
                             S3 | EC2 | Route 53 | CloudFront | Microsoft Excel | Microsoft Office
                         </ul>
                     </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Projects -->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"> Face (and Object) Tracker </h3>
+                            <div class="subheading mb-3"> Track objects using a <span class="subheading-primary">Machine Learning</span> and a <span class="subheading-primary">Raspberrry Pi</span> </div>
+                            <div class="flex-shrink-0">
+                                <img class="img-right" src="assets/img/face-tracker_01.png" width="250" />
+                            </div>
+                            <div>
+                                <p>
+                                    Is it possible to track a person and their movement with a moving camera? I explored this with a Raspberry Pi and moving camera, and possibly exploring the idea of tracking a toddler (my son).
+                                </p><p>
+                                    Using a Raspberry Pi and the Pimoroni Pan-Tilt HAT, I was able to utilize OpenCV and its many capabilities to track Objects (including face-detection).
+                                    I was able to leverage the use of a Haar Cascade algorithm as well as YOLOv4-tiny (with the Darknet Distibuted-Neural-Network) to accomplish this, as well as 
+                                    create a User-Interface for easy interaction.
+                                </p>
+                                <p><a target="_blank" href="https://github.com/ccaldarella99/Face-Tracker">View the GitHub repository</a></p>
+                                <p><a target="_blank" href="https://github.com/ccaldarella99/Face-Tracker/blob/main/presentation/Face-Tracker_presentation.pdf">View the Presentation Deck</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"> Reddit Classifier Using Natural Language Processing </h3>
+                            <div class="subheading mb-3"> Use <span class="subheading-primary">NLP to compare text</span> from two <span class="subheading-primary">Sub-Reddits</span> </div>
+                            <div class="flex-shrink-0">
+                                <img class="img-left" src="assets/img/nlp_01.png" width="400" />
+                            </div>
+                            <div>
+                                <p>
+                                    I pulled textual-data from two similar subreddits using my webscraping skills, and 
+                                    compared the two data-sets using Supervised Machine Learning. I utilized a Bayesian model, 
+                                    among other models, to decipher where the entry came from, and analyzed the results to 
+                                    deduce which model performed best. 
+                                </p><p>
+                                    The two subreddits used are the <a target="_blank" href="https://www.reddit.com/r/AMA/">"AMA"</a> 
+                                    subreddit and the <a target="_blank" href="https://www.reddit.com/r/AskReddit/">"AskReddit"</a> subreddit. 
+                                    It is worth noting that I removed some  data to make it more challenging for the 
+                                    Machine Learning Algorithm to make a decision.
+                                </p>
+                                <p><a target="_blank" href="https://github.com/ccaldarella99/NLP_and_Reddit">View the GitHub repository</a></p>
+                                <p><a target="_blank" href="https://github.com/ccaldarella99/NLP_and_Reddit/blob/main/presentation/ChristopherCaldarella_project3.pdf">View the Presentation Deck</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <hr class="m-0" />
             <!-- Experience-->
@@ -232,17 +284,7 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Besides hanging out with my wife and son, I enjoy cooking, listening to music, and playing music. </p>
-                    <p class="mb-0">I played bass in a band in Denver, Colorado before moving to Maine.</p>
-                    <p class="mb-0">I also play guitar, and I am currently trying to learn to play drums and piano in my spare time.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!--Nominations -->
+            <!-- Nominations -->
             <section class="resume-section" id="nominations">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Nominations</h2>
@@ -272,7 +314,17 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!--Nominations -->
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Besides hanging out with my wife and son, I enjoy cooking, listening to music, and playing music. </p>
+                    <p class="mb-0">I played bass in a band in Denver, Colorado before moving to Maine.</p>
+                    <p class="mb-0">I also play guitar, and I am currently trying to learn to play drums and piano in my spare time.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Resume -->
             <section class="resume-section" id="resume">
                 <div class="resume-section-content">
                     <h2 class="mb-5">RESUM&#201;</h2>
@@ -286,6 +338,7 @@
                     </ul>
                 </div>
             </section>
+            <!-- hr class="m-0" / -->
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
