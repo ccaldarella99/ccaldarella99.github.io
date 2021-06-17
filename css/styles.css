@@ -7566,6 +7566,11 @@ textarea.form-control-lg {
   margin: 0 0 10px 40px;
 }
 
+/* ADDED */
+.checkmark-ul {
+  margin-left: 2em;
+}
+
 .rounded-pill {
   border-radius: 50rem !important;
 }
@@ -11034,7 +11039,16 @@ p.lead {
 }
 .social-icons .social-icon:hover {
   /* background-color: #bd5d38; */
-  background-color: #335588;
+  /*background-color: #335588;*/
+  background-color: #5577bb;
+  /* ADDED */
+  transition: 1s;
+}
+
+/* ADDED */
+.email:hover {
+  color: #5577bb;
+  transition: 1s;
 }
 
 .dev-icons {
