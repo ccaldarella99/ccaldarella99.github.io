@@ -11051,6 +11051,23 @@ p.lead {
   transition: 1s;
 }
 
+/* ADDED */
+.no-deco {
+  text-decoration: none;
+}
+
+/* ADDED */
+.cert {
+  display: flex;
+  align-items: center;
+}
+
+/* ADDED */
+.cert-img {
+  width: 3.5em;
+  margin: 0.2em;
+}
+
 .dev-icons {
   font-size: 3rem;
 }
