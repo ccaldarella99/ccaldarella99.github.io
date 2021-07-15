@@ -7571,6 +7571,17 @@ textarea.form-control-lg {
   margin-left: 2em;
 }
 
+/* ADDED */
+.svg-skills {
+  display: none;
+}
+
+/* ADDED */
+li:hover>.svg-skills {
+  display: inline;
+  margin: 0 5px;
+}
+
 .rounded-pill {
   border-radius: 50rem !important;
 }
