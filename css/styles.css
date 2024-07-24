@@ -11079,6 +11079,12 @@ p.lead {
   margin: 0.2em;
 }
 
+/* ADDED */
+.cert-img-h {
+  height: 3.5em;
+  margin: 0.2em;
+}
+
 .dev-icons {
   font-size: 3rem;
 }
