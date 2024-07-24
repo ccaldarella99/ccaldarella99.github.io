@@ -32,3 +32,26 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+// Default value if calculation fails
+const defaultYears = "10";
+
+// Function to calculate years difference
+function calculateYearsDifference(pastDate) {
+    const today = new Date();
+    const past = new Date(pastDate);
+    const differenceInMilliseconds = today - past;
+    const differenceInYears = Math.floor(differenceInMilliseconds / (1000 * 60 * 60 * 24 * 365.25));
+    return differenceInYears;
+}
+
+const yearsDifferenceElement = document.getElementById('years-difference');
+try {
+    const pastDate = "2014-07-07"; 
+    const years = calculateYearsDifference(pastDate);
+    yearsDifferenceElement.textContent = years + " years";
+} catch (error) {
+    yearsDifferenceElement.textContent = defaultYears;
+}
+
